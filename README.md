@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:02-12-2024
-## Register Number:24900649
-## Name:MAHALINGA JEYANTH V
+# Date:12-03-2025
+## Register Number:212224040030
+## Name:MAHALINGA ARUL KUMARAN S A
 ## Problem Title
 Implementation of the Alumni Association platform for the University/Institute.
 ## Problem Description
