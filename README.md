@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:02-12-2024
-## Register Number:24900649
-## Name:MAHALINGA JEYANTH V
+# Date:20/05/2025
+## Register Number:212224040030
+## Name: ARUL KUMARAN S A
 ## Problem Title
 Implementation of the Alumni Association platform for the University/Institute.
 ## Problem Description
@@ -10,55 +10,30 @@ Background: Alumni associations play a pivotal role in fostering lifelong connec
 Government of Gujarat
 
 ## Idea
-The proposed Alumni Association Platform aims to create a dynamic, interconnected ecosystem for alumni of the Government Engineering College through integrated web and mobile applications. This platform will facilitate seamless registration, allowing alumni to update profiles and stay connected. A secure donation portal will encourage philanthropy by enabling effortless contributions to various initiatives. The networking hub will serve as a space for professional connections and mentorship opportunities, while the job portal will support career growth through job postings and search features. A comprehensive alumni directory will make it easy to locate peers based on criteria such as batch year, industry, or location, fostering stronger connections within the community. Additionally, the platform will celebrate alumni achievements by showcasing success stories, inspiring both alumni and current students. Features for organizing events and reunions will maintain engagement and nurture a sense of belonging. Feedback and survey tools will allow the institution to gather insights and refine offerings. Built with cutting-edge technologies for scalability and security, the platform is designed to enhance engagement, build community, and promote pride in the institution, ensuring long-term benefits for both alumni and the college.
-
-1.Alumni Registration: A user-friendly registration system simplifies alumni onboarding and ensures secure profile creation. Alumni can update their personal and professional details, fostering seamless connectivity with peers and the institution. This feature maintains a dynamic and comprehensive database for effective communication and community building.
-
-2.Donation Portal: A secure and transparent portal allows alumni to contribute towards institutional initiatives such as scholarships, infrastructure upgrades, and research projects. Multiple payment options and real-time tracking ensure convenience and accountability, fostering a culture of philanthropy.
-
-3.Networking Hub: Dedicated networking sections connect alumni based on shared interests, industries, and locations. Real-time messaging, interest-based groups, and mentorship opportunities encourage collaboration and professional growth within the alumni network.
-
-4.Job Portal: An integrated job platform provides a space for alumni to post or search for job opportunities. Automated notifications and targeted recommendations help alumni advance their careers while enabling employers to find talent within the alumni network.
-
-5.Alumni Directory: A searchable directory enables alumni to find peers using filters such as graduation year, location, industry, or expertise. This fosters meaningful connections and strengthens the alumni community.
-
-6.Success Story Tracking: A dedicated section showcases notable alumni achievements, inspiring current students and instilling pride in the alumni community. Stories of professional and societal contributions highlight the institution’s impact.
-
-7.Events and Reunions: Event management tools allow alumni to participate in reunions, workshops, and other institutional activities. Features include event registration, reminders, and virtual participation options to ensure maximum engagement.
-
-8.Feedback and Surveys: Interactive feedback channels and surveys gather insights from alumni to improve institutional initiatives and the platform itself. This ensures a responsive and evolving system aligned with alumni needs.
+1. Alumni Directory: A searchable database where alumni can update profiles andconnect.
+2. Networking & Mentorship: Allows students to connect with alumni for careerguidance.
+3. Event Management: Organizes alumni events like reunions, webinars, and meetups.
+4. Job Opportunities: A job board for alumni and students to share careeropportunities.
+5. News & Updates: Shares institutional news and alumni achievements.
+6. Donation & Fundraising: Enables alumni to contribute to university projects andscholarships.
+7. Discussion Forums: Alumni can engage in interest-based discussions and groups.
+8. Mobile Access: A mobile app or responsive site for on-the-go access.
 
 ## Proposed Solution / Architecture Diagram
-![Screenshot 2024-12-02 162046](https://github.com/user-attachments/assets/1f5fe0aa-8a2d-4f76-a0e8-d366c29ba798)
 
-
+![diagram 1](https://github.com/user-attachments/assets/2bffe9ab-ea76-4f23-be92-497c78a201b1)
 ## Use Cases
-![Screenshot 2024-12-02 161705](https://github.com/user-attachments/assets/d4abf341-75c1-4d3d-a83c-a76027a30ce1)
 
-
+![sih new ss](https://github.com/user-attachments/assets/c5d6f509-a1b1-41fe-a71f-314867c06c57)
 ## Technology Stack
-Frontend:HTML,JavaScript,React
-
-backend:Django,Express.js,Node.js
-
-Security: JWT,ModSecurity
-
-Hosting: GCP,Azure
-
-Payment Gateway: PayPal,Stripe API,Razorpay API
-
+1. React/Angular (frontend)
+2. Node.js/Python (backend)
+3. PostgreSQL/MongoDB (database)
+4. Firebase (notifications).
 ## Dependencies
--Framework: Vue.js (Alternative)(or Angular (Alternative)).
-
--Programming Language: Django (Python Alternative) or Flask (Python Alternative).
-
--Cloud Platform: Amazon Cognito,Google Cloud SDK or SDK.
-
--CI/CD: Docker,SonarQube or GitHub Actions CI/CD Workflow.
-
--AES encryption and decryption in Python applications.
-
--Payment Gateways: PayPal Express Checkout SDK or Stripe Node.js SDK.
-
--Estimated Total Cost:For a fully functional MVP (Minimum Viable Product) $25,000 - $50,000.
-
+1. Frontend: React/Angular, Axios for API calls, Material-UI for styling, Firebase forauthentication, and Chart.js for data visualization.
+2. Backend: Node.js/Express or Django, MongoDB/PostgreSQL for data storage,JWT/OAuth for authentication, and Socket.io for real-time features.
+3. DevOps: Docker for containerization, AWS/Google Cloud for hosting, and CI/CDtools for deployment.
+4. Testing: Jest, Supertest, and Cypress for testing.
+5. Security: Helmet.js, CORS middleware, and rate limiting for protection.
+6. Analytics/Notifications: Google Analytics, Sentry for monitoring, andTwilio/SendGrid for notifications.
